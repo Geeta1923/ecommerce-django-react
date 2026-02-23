@@ -103,26 +103,28 @@ GET /api/orders/myorders/
 
 ## 📸 Screenshots
 
-(Add screenshots here)
-
-Example:
-
-### Home Page
+### 🏠 Home Page
 ![Home](screenshots/home.png)
 
-### Product Page
+### 📦 Product Page
 ![Product](screenshots/product.png)
 
-### Payment Page
-![Payment](screenshots/payment.png)
+### 🛒 Cart Page
+![Cart](screenshots/cart.png)
 
-home.png
-product.png
-cart.png
-razorpay payment.png
-Dashboard.png
-order.png
-placeorder.png
+### 💳 Razorpay Payment
+![Payment](screenshots/razorpay-payment.png)
+
+### 📄 Order Page
+![Order](screenshots/order.png)
+
+### 🧾 Place Order Page
+![Place Order](screenshots/placeorder.png)
+
+### 🛠 Admin Dashboard
+![Admin](screenshots/dashboard.png)
+
+
 
 ## ⚙ How to Run Locally
 
