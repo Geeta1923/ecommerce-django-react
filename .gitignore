@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.env
+db.sqlite3
+media/
+
+# Node
+node_modules/
+build/
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
