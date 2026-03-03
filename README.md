@@ -104,25 +104,25 @@ GET /api/orders/myorders/
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home](screenshots/home.png)
+![Home](Screenshots/home.png)
 
 ### 📦 Product Page
-![Product](screenshots/product.png)
+![Product](Screenshots/product.png)
 
 ### 🛒 Cart Page
-![Cart](screenshots/cart.png)
+![Cart](Screenshots/cart.png)
 
 ### 💳 Razorpay Payment
-![Payment](screenshots/razorpay-payment.png)
+![Payment](Screenshots/razorpay-payment.png)
 
 ### 📄 Order Page
-![Order](screenshots/order.png)
+![Order](Screenshots/order.png)
 
 ### 🧾 Place Order Page
-![Place Order](screenshots/placeorder.png)
+![Place Order](Screenshots/placeorder.png)
 
 ### 🛠 Admin Dashboard
-![Admin](screenshots/dashboard.png)
+![Admin](Screenshots/dashboard.png)
 
 
 
