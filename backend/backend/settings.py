@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'frontend/build/static'),
+    os.path.join(BASE_DIR, '/build/static'),
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
@@ -34,7 +34,7 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 TEMPLATES[0]['DIRS'] = [
-    os.path.join(BASE_DIR, 'frontend/build')
+    os.path.join(BASE_DIR, '/build')
 ]
 
 DEBUG = False
@@ -48,8 +48,8 @@ DATABASES = {
     )
 }
 
-RAZORPAY_KEY_ID = os.getenv("RAZORPAY_KEY_ID")
-RAZORPAY_KEY_SECRET = os.getenv("RAZORPAY_KEY_SECRET")
+RAZORPAY_KEY_ID = os.environ.get("RAZORPAY_KEY_ID")
+RAZORPAY_KEY_SECRET = os.environ.get("RAZORPAY_KEY_SECRET")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
